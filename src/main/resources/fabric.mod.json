@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nomnom",
+	"version": "${version}",
+	"name": "Nomnom",
+	"description": "This mod is awesome!",
+	"authors": [
+		"ZZEFIRKA!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/nomnom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.zzefirka.nomnom.Nomnom"
+		],
+		"fabric-datagen": [
+			"net.zzefirka.nomnom.NomnomDataGenerator"
+		],
+		"client": [
+			"net.zzefirka.nomnom.NomnomClient"
+		]
+	},
+	"mixins": [
+		"nomnom.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
