@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nomnom:block/astralite_block"
+    }
+  }
+}
