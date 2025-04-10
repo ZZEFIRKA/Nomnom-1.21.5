@@ -18,7 +18,7 @@ public class ModBlocks {
 
     public static final Block ASTRALITE_BLOCK = registerBlock("astralite_block",
             new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Nomnom.MOD_ID, "astralite_block")))
-                    .strength(40.0F, 1200.0F)
+                    .strength(4.0f, 50.0f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
 
@@ -30,7 +30,7 @@ public class ModBlocks {
 
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(Nomnom.MOD_ID, name),
-                new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Nomnom.MOD_ID, name)))));
+                new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Nomnom.MOD_ID, name))).useBlockPrefixedTranslationKey()));
     }
 
     public static void registerModBlocks() {

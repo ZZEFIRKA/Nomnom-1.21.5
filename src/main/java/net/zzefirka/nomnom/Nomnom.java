@@ -14,7 +14,6 @@ public class Nomnom implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
-//		ModBlocks.initialize();
 		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTables();
 	}

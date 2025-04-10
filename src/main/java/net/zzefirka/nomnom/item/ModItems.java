@@ -35,16 +35,4 @@ public final class ModItems {
             entries.addAfter(Items.NETHERITE_INGOT, ModItems.ASTRALITE);
         });
     }
-
-//    public static void initialize() {
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-//            entries.addAfter(Items.AMETHYST_SHARD, ModItems.MIROLUM);
-//        });
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-//            entries.addAfter(ModItems.MIROLUM, ModItems.BLUE_TOPAZ);
-//        });
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-//            entries.addAfter(Items.NETHERITE_INGOT, ModItems.ASTRALITE);
-//        });
-//    }
 }
